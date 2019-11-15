@@ -41,7 +41,9 @@ If you want to get familiar with the different settings included in the style fi
 Here are the UW colors for your ggplots: 
 
 > ```uwPurple = rgb(red=51, green=0, blue=111, maxColorValue=255)```
+
 > ```uwGold = rgb(red=232, green=211, blue=162, maxColorValue=255)```
+
 > ```uwMetallicGold = rgb(red=145, green=123, blue=76, maxColorValue=255)```
 
  

@@ -19,7 +19,7 @@ The graphics directory contains the elements needed to build a nice looking Beam
 
 I suggest just making a copy of the template directory for each presentation. 
 The files are not very big. 
-There is a cleaner ways to use the template, but this is good enough for a first pass. 
+There are cleaner ways to use the template, but this is good enough for a first pass. 
 
 The example file has the CSSS logo on the title page. 
 The stats logo is also in the graphics directory. 

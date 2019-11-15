@@ -1,0 +1,54 @@
+\mode<presentation>
+
+% Footer
+\setbeamertemplate{footline}{%
+	\ifnum\thepage=1
+		\hspace{0.5cm}
+		\includegraphics[height=0.35cm]{graphics/Signature_Left_Purple_Hex}
+		\hfill
+		\includegraphics[height=1.5cm]{graphics/csss}
+		\hspace{0.5cm}
+		\vspace{0.3cm}
+	\fi
+
+	\ifnum\thepage>1
+		\hfill\includegraphics[height=0.35cm]{graphics/Signature_Left_Purple_Hex}
+		\hspace{0.5cm}
+		\vspace{0.25cm}
+	\fi
+
+}
+
+% Title page
+\defbeamertemplate*{title page}{uw}[1][]
+{ 
+ \vskip1cm%
+ \begin{beamercolorbox}[wd=10.5cm,leftskip=0.5cm,#1]{title page header}
+	\usebeamerfont{title}\inserttitle\par%
+    \includegraphics[height=0.1cm]{graphics/goldBar}
+  \end{beamercolorbox}%
+  \vskip0.25cm%
+  \begin{beamercolorbox}[wd=12cm,#1]{author}
+	 \centering
+     \usebeamerfont{author}\insertauthor%
+  \end{beamercolorbox}
+  \vskip0.5cm%
+  \begin{beamercolorbox}[wd=12cm,#1]{institute}
+	 \centering
+     \usebeamerfont{institute}\insertinstitute%
+  \end{beamercolorbox}
+  \vskip0.5cm%
+  \begin{beamercolorbox}[wd=12cm,#1]{date}
+	\centering
+    \usebeamerfont{date}\insertdate%
+  \end{beamercolorbox}
+  \vfill
+}
+
+% Items
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[textendash]
+\setbeamertemplate{sections/subsections in toc}[round]
+
+\mode
+<all>
